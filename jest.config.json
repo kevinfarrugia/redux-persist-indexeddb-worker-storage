@@ -1,0 +1,14 @@
+{
+  "rootDir": "./",
+  "verbose": true,
+  "collectCoverage": true,
+  "testEnvironment": "jsdom",
+  "collectCoverageFrom": ["!<rootDir>/node_modules/", "<rootDir>/*.js"],
+  "coveragePathIgnorePatterns": ["/node_modules/"],
+  "testRegex": "\\.(spec)\\.(js|ts)$",
+  "testPathIgnorePatterns": [],
+  "moduleFileExtensions": ["js", "ts", "json"],
+  "transformIgnorePatterns": [],
+  "coverageReporters": ["lcovonly"],
+  "forceExit": true
+}
